@@ -14,3 +14,11 @@ def loop_message_n_times(string, interger)
   i += 1 
 end
 end
+
+def output_array(array)
+  i = 0 
+  while i < array.length
+    puts "#{array}"
+    i += 1 
+  end
+end
